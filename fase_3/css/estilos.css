@@ -1,0 +1,110 @@
+
+header {
+    background-color: blue;
+    color: cornsilk;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.logo {
+    grid-column: 1/1;
+}
+
+.encabezado {
+    grid-column: 2/4;
+}
+
+/* ...... Menu principal .............*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+/* ----------Fin de menu---------------*/
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+section {
+    background-color: grey;
+    color: honeydew;
+    font-size: 16px;
+    grid-column: 1/4;
+}
+
+.imagen1 {
+     
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    background-color: honeydew;
+    color: black;
+    grid-column: 4/5;
+
+}
+
+.imagen{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.texto1 {
+    vertical-align: top;
+    display: inline-block;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+footer>#contacto {
+    background-color:blue ;
+    color: honeydew;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer#foto{
+    grid-column: 1/1;
+}
+
+footer#informacion {
+    grid-column: 2/5;
+}
