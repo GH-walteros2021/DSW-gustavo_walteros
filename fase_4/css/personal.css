@@ -1,0 +1,14 @@
+body {
+    background-color: limegreen;
+}
+@media (min-width:576px) {
+    body {
+        background-color: antiquewhite;
+    }
+}
+
+@media (min-width:992px) {
+    body {
+        background-color: darkorange;
+    }
+}
